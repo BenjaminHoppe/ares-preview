@@ -60,11 +60,11 @@ private enum PathfinderExperience {
     )
 
     static let pointsOfInterest: [(name: String, coordinate: MarsCoordinate)] = [
-        ("PATHFINDER", MarsCoordinate(lat: 19.09951675698246, lon: 326.7479799471738)),
-        ("SOJOURNER", MarsCoordinate(lat: 19.09959247817129, lon: 326.7479296629728)),
-        ("BACKSHELL", MarsCoordinate(lat: 19.095186939060227, lon: 326.7495421437996)),
-        ("PARACHUTE", MarsCoordinate(lat: 19.094945857599555, lon: 326.7492927846002)),
-        ("POSSIBLE\nHEATSHIELD DEBRIS", MarsCoordinate(lat: 19.093645267506155, lon: 326.752871323477)),
+        ("PATHFINDER", MarsCoordinate(lat: 19.097090437014433, lon: 326.74787446541995)),
+        ("SOJOURNER", MarsCoordinate(lat: 19.09716405897673, lon: 326.7478237526299)),
+        ("BACKSHELL", MarsCoordinate(lat: 19.09276784432445, lon: 326.74942915137257)),
+        ("PARACHUTE", MarsCoordinate(lat: 19.0925177711737, lon: 326.74918840933134)),
+        ("POSSIBLE\nHEATSHIELD DEBRIS", MarsCoordinate(lat: 19.091215051974647, lon: 326.7527646329015)),
     ]
 
     static let marsRadiusKm = 3389.5
