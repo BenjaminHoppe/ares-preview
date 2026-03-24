@@ -165,7 +165,7 @@ private final class PathfinderExplorerModel: ObservableObject {
     private(set) var tier2Loaded = false
     private var rawL1Cache: [String: CGImage] = [:]
 
-    private let tileManager = TileManager()
+    private lazy var tileManager = TileManager()
     private let processingQueue = DispatchQueue(label: "com.arespreview.pathfinder-processing", qos: .userInitiated, attributes: .concurrent)
     private var level1LoadTasks: [String: Task<Void, Never>] = [:]
     private var didStartInitialLoad = false
@@ -216,7 +216,8 @@ private final class PathfinderExplorerModel: ObservableObject {
         farImage = await far
         await chromaPrep
 
-        let allDescriptors = CTXTileLoader.rawTiles(intersecting: PathfinderExperience.worldRect)
+        let isPrebaked = TerrainAssetPaths.currentSource == .prebaked
+        let allDescriptors = CTXTileLoader.rawTiles(intersecting: PathfinderExperience.worldRect, skipFileCheck: isPrebaked)
         let cachedCount = await loadCachedTiles(allDescriptors)
         if cachedCount == allDescriptors.count && cachedCount > 0 {
             totalLevel1TileCount = cachedCount

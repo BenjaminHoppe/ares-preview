@@ -30,7 +30,7 @@ final class RenderingPipeline: ObservableObject {
     /// Set to true to simulate rendering without actual ML inference (for UI testing)
     static let mockMode = false
 
-    private let tileManager = TileManager()
+    private lazy var tileManager = TileManager()
     private let processingQueue = DispatchQueue(label: "com.arespreview.rendering-pipeline", qos: .userInitiated, attributes: .concurrent)
     private var startTime: CFAbsoluteTime = 0
     private var totalInferenceMs: Double = 0

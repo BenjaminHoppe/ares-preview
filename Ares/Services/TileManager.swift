@@ -33,14 +33,21 @@ final class TileManager: @unchecked Sendable {
     static let outputCropInset = inputPadding * upscaleFactor
     static let fallbackMeanThreshold: Float = 0.20
 
-    private let model: MLModel
+    private let model: MLModel?
     private let inferenceQueue = DispatchQueue(label: "com.arespreview.tile-inference", qos: .userInitiated)
 
     init() {
         let configuration = MLModelConfiguration()
         configuration.computeUnits = .all
-        self.model = try! MLModel(contentsOf: ModelVersion.v051_2500.compiledURL, configuration: configuration)
+        do {
+            self.model = try MLModel(contentsOf: ModelVersion.v051_2500.compiledURL, configuration: configuration)
+        } catch {
+            print("[TileManager] Failed to load ML model: \(error)")
+            self.model = nil
+        }
     }
+
+    var isAvailable: Bool { model != nil }
 
     func enhanceLevel1Tile(_ grayscaleTile: CGImage, tileID: String? = nil) async -> EnhancedTileResult? {
         await withCheckedContinuation { continuation in
@@ -128,7 +135,7 @@ final class TileManager: @unchecked Sendable {
                 ]) else { return nil }
 
                 let predictStart = CFAbsoluteTimeGetCurrent()
-                guard let output = try? model.prediction(from: provider) else { return nil }
+                guard let model, let output = try? model.prediction(from: provider) else { return nil }
                 totalInferenceMs += (CFAbsoluteTimeGetCurrent() - predictStart) * 1000
 
                 guard let outputArray = output.featureValue(for: "output")?.multiArrayValue else { return nil }
@@ -279,7 +286,7 @@ final class TileManager: @unchecked Sendable {
                 ]) else { return nil }
 
                 let predictStart = CFAbsoluteTimeGetCurrent()
-                guard let output = try? model.prediction(from: provider) else { return nil }
+                guard let model, let output = try? model.prediction(from: provider) else { return nil }
                 totalInferenceMs += (CFAbsoluteTimeGetCurrent() - predictStart) * 1000
 
                 guard let outputArray = output.featureValue(for: "output")?.multiArrayValue else { return nil }

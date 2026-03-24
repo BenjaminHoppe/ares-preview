@@ -111,7 +111,7 @@ enum CTXTileLoader {
         return rawTile(lonSW: lonSW, latSW: latSW)
     }
 
-    static func rawTiles(intersecting rect: GeoRect, requiringLevel2Data: Bool = false) -> [CTXRawTileDescriptor] {
+    static func rawTiles(intersecting rect: GeoRect, requiringLevel2Data: Bool = false, skipFileCheck: Bool = false) -> [CTXRawTileDescriptor] {
         let lonStart = floor(rect.lonMin / degreesPerRaw) * degreesPerRaw
         let lonEnd = floor((rect.lonMax - epsilon) / degreesPerRaw) * degreesPerRaw
         let latStart = floor(rect.latMin / degreesPerRaw) * degreesPerRaw
@@ -123,12 +123,15 @@ enum CTXTileLoader {
             var lon = lonStart
             while lon <= lonEnd {
                 let tile = rawTile(lonSW: lon, latSW: lat)
-                let hasRequiredData = requiringLevel2Data
-                    ? FileManager.default.fileExists(atPath: tile.level2DirectoryURL.path)
-                    : FileManager.default.fileExists(atPath: tile.level1URL.path)
-
-                if hasRequiredData {
+                if skipFileCheck {
                     results.append(tile)
+                } else {
+                    let hasRequiredData = requiringLevel2Data
+                        ? FileManager.default.fileExists(atPath: tile.level2DirectoryURL.path)
+                        : FileManager.default.fileExists(atPath: tile.level1URL.path)
+                    if hasRequiredData {
+                        results.append(tile)
+                    }
                 }
                 lon += degreesPerRaw
             }
