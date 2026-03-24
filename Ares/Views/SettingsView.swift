@@ -284,10 +284,10 @@ struct SettingsView: View {
 
             settingsRow(
                 icon: "globe",
-                label: "applied-curiosity.org",
+                label: "Ares Preview (GitHub)",
                 trailingIcon: "arrow.up.right"
             ) {
-                if let url = URL(string: "https://applied-curiosity.org") {
+                if let url = URL(string: "https://github.com/BenjaminHoppe/ares-preview") {
                     NSWorkspace.shared.open(url)
                 }
             }

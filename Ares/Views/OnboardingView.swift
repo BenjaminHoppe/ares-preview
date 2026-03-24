@@ -299,7 +299,7 @@ struct OnboardingView: View {
             return .handled
         }
         .onKeyPress(.init("l")) {
-            if let url = URL(string: "https://applied-curiosity.org") {
+            if let url = URL(string: "https://github.com/BenjaminHoppe/ares-preview") {
                 NSWorkspace.shared.open(url)
             }
             return .handled
@@ -433,7 +433,7 @@ struct OnboardingView: View {
             ("so you can explore immediately with no first-time render. You can", nil),
             ("switch anytime later in Settings.", nil),
             ("", nil), // line break
-            ("press L to learn more at applied-curiosity.org", .white),
+            ("Press L to learn more (Ares Preview GitHub)", .white),
         ]
     }
 
