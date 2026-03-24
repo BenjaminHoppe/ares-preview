@@ -4,8 +4,6 @@ A native macOS application for exploring Mars terrain using on-device neural sup
 
 Ares enhances NASA orbital imagery of Mars using a 30 MB neural network (Ares SR v0.5.1) running on Apple's Neural Engine. Zoom continuously from orbit to surface, entirely offline.
 
-Learn more at [Applied Curiosity](https://applied-curiosity.org)
-
 ## Requirements
 
 - macOS 14 or newer 
