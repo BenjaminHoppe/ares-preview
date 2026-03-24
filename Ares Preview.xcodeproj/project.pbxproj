@@ -1,0 +1,502 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E939AFB2F5F8BA400165FA7 /* AppFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E939AF22F5F8BA400165FA7 /* AppFonts.swift */; };
+		7E939AFC2F5F8BA400165FA7 /* FontRegistration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E939AF72F5F8BA400165FA7 /* FontRegistration.swift */; };
+		7E939AFD2F5F8BA400165FA7 /* BlenderTrial-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7E939AF52F5F8BA400165FA7 /* BlenderTrial-Medium.otf */; };
+		7E939AFE2F5F8BA400165FA7 /* InterVariable-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7E939AF92F5F8BA400165FA7 /* InterVariable-Italic.ttf */; };
+		7E939AFF2F5F8BA400165FA7 /* BlenderTrial-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7E939AF32F5F8BA400165FA7 /* BlenderTrial-Bold.otf */; };
+		7E939B002F5F8BA400165FA7 /* BlenderTrial-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7E939AF62F5F8BA400165FA7 /* BlenderTrial-Thin.otf */; };
+		7E939B012F5F8BA400165FA7 /* BlenderTrial-Book.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7E939AF42F5F8BA400165FA7 /* BlenderTrial-Book.otf */; };
+		7E939B022F5F8BA400165FA7 /* InterVariable.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7E939AF82F5F8BA400165FA7 /* InterVariable.ttf */; };
+		7EFDE8B42F65DDF6001732ED /* AresEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2565CDC164667353EDAF77B6 /* AresEnvironment.swift */; };
+		A10001 /* AresApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10001 /* AresApp.swift */; };
+		A10002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10002 /* ContentView.swift */; };
+		A10017 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B10017 /* Assets.xcassets */; };
+		A10021 /* TopBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10021 /* TopBar.swift */; };
+		A10023 /* ToggleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10023 /* ToggleButton.swift */; };
+		A10026 /* MarsTimekeeper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10026 /* MarsTimekeeper.swift */; };
+		A10027 /* TelemetryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10027 /* TelemetryView.swift */; };
+		A10031 /* TelemetryPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10031 /* TelemetryPanel.swift */; };
+		A10041 /* TileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10041 /* TileManager.swift */; };
+		A10042 /* SampleSizeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10042 /* SampleSizeView.swift */; };
+		A10052 /* MarsTerrainSR_v051_2500.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = B10052 /* MarsTerrainSR_v051_2500.mlpackage */; };
+		A10056 /* CTXTileLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10056 /* CTXTileLoader.swift */; };
+		A10057 /* Mosaics in Resources */ = {isa = PBXBuildFile; fileRef = B10057 /* Mosaics */; };
+		A10060 /* ColourEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10060 /* ColourEngine.swift */; };
+		A10061 /* HiRISETileLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10061 /* HiRISETileLoader.swift */; };
+		A10062 /* HiRISETier2Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10062 /* HiRISETier2Loader.swift */; };
+		A10063 /* AltitudeScaleBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10063 /* AltitudeScaleBar.swift */; };
+		A10064 /* Tooltip.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10064 /* Tooltip.swift */; };
+		A10065 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10065 /* SettingsView.swift */; };
+		A10066 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10066 /* OnboardingView.swift */; };
+		A10067 /* RenderingPipeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10067 /* RenderingPipeline.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2565CDC164667353EDAF77B6 /* AresEnvironment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AresEnvironment.swift; sourceTree = "<group>"; };
+		7E939AF22F5F8BA400165FA7 /* AppFonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFonts.swift; sourceTree = "<group>"; };
+		7E939AF32F5F8BA400165FA7 /* BlenderTrial-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BlenderTrial-Bold.otf"; sourceTree = "<group>"; };
+		7E939AF42F5F8BA400165FA7 /* BlenderTrial-Book.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BlenderTrial-Book.otf"; sourceTree = "<group>"; };
+		7E939AF52F5F8BA400165FA7 /* BlenderTrial-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BlenderTrial-Medium.otf"; sourceTree = "<group>"; };
+		7E939AF62F5F8BA400165FA7 /* BlenderTrial-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BlenderTrial-Thin.otf"; sourceTree = "<group>"; };
+		7E939AF72F5F8BA400165FA7 /* FontRegistration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontRegistration.swift; sourceTree = "<group>"; };
+		7E939AF82F5F8BA400165FA7 /* InterVariable.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = InterVariable.ttf; sourceTree = "<group>"; };
+		7E939AF92F5F8BA400165FA7 /* InterVariable-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "InterVariable-Italic.ttf"; sourceTree = "<group>"; };
+		B10001 /* AresApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AresApp.swift; sourceTree = "<group>"; };
+		B10002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B10017 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B10021 /* TopBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopBar.swift; sourceTree = "<group>"; };
+		B10023 /* ToggleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleButton.swift; sourceTree = "<group>"; };
+		B10026 /* MarsTimekeeper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarsTimekeeper.swift; sourceTree = "<group>"; };
+		B10027 /* TelemetryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelemetryView.swift; sourceTree = "<group>"; };
+		B10031 /* TelemetryPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelemetryPanel.swift; sourceTree = "<group>"; };
+		B10041 /* TileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TileManager.swift; sourceTree = "<group>"; };
+		B10042 /* SampleSizeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleSizeView.swift; sourceTree = "<group>"; };
+		B10052 /* MarsTerrainSR_v051_2500.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = MarsTerrainSR_v051_2500.mlpackage; sourceTree = "<group>"; };
+		B10056 /* CTXTileLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTXTileLoader.swift; sourceTree = "<group>"; };
+		B10057 /* Mosaics */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Mosaics; sourceTree = "<group>"; };
+		B10060 /* ColourEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColourEngine.swift; sourceTree = "<group>"; };
+		B10061 /* HiRISETileLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HiRISETileLoader.swift; sourceTree = "<group>"; };
+		B10062 /* HiRISETier2Loader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HiRISETier2Loader.swift; sourceTree = "<group>"; };
+		B10063 /* AltitudeScaleBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AltitudeScaleBar.swift; sourceTree = "<group>"; };
+		B10064 /* Tooltip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tooltip.swift; sourceTree = "<group>"; };
+		B10065 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		B10066 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		B10067 /* RenderingPipeline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenderingPipeline.swift; sourceTree = "<group>"; };
+		C10001 /* Ares Preview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ares Preview.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D10001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E939AFA2F5F8BA400165FA7 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				7E939AF22F5F8BA400165FA7 /* AppFonts.swift */,
+				7E939AF32F5F8BA400165FA7 /* BlenderTrial-Bold.otf */,
+				7E939AF42F5F8BA400165FA7 /* BlenderTrial-Book.otf */,
+				7E939AF52F5F8BA400165FA7 /* BlenderTrial-Medium.otf */,
+				7E939AF62F5F8BA400165FA7 /* BlenderTrial-Thin.otf */,
+				7E939AF72F5F8BA400165FA7 /* FontRegistration.swift */,
+				7E939AF82F5F8BA400165FA7 /* InterVariable.ttf */,
+				7E939AF92F5F8BA400165FA7 /* InterVariable-Italic.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		E10001 = {
+			isa = PBXGroup;
+			children = (
+				E10002 /* Ares */,
+				E10009 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E10002 /* Ares */ = {
+			isa = PBXGroup;
+			children = (
+				B10001 /* AresApp.swift */,
+				B10002 /* ContentView.swift */,
+				E10004 /* Models */,
+				E10005 /* Data */,
+				E10006 /* Views */,
+				E10007 /* Resources */,
+				E10010 /* Services */,
+			);
+			path = Ares;
+			sourceTree = "<group>";
+		};
+		E10004 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2565CDC164667353EDAF77B6 /* AresEnvironment.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E10005 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				B10026 /* MarsTimekeeper.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		E10006 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B10066 /* OnboardingView.swift */,
+				B10021 /* TopBar.swift */,
+				B10027 /* TelemetryView.swift */,
+				B10031 /* TelemetryPanel.swift */,
+				B10042 /* SampleSizeView.swift */,
+				B10065 /* SettingsView.swift */,
+				E10008 /* Components */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E10007 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7E939AFA2F5F8BA400165FA7 /* Fonts */,
+				B10017 /* Assets.xcassets */,
+				E10011 /* ML */,
+				B10057 /* Mosaics */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E10008 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				B10023 /* ToggleButton.swift */,
+				B10063 /* AltitudeScaleBar.swift */,
+				B10064 /* Tooltip.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		E10009 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C10001 /* Ares Preview.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E10010 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B10060 /* ColourEngine.swift */,
+				B10056 /* CTXTileLoader.swift */,
+				B10061 /* HiRISETileLoader.swift */,
+				B10062 /* HiRISETier2Loader.swift */,
+				B10067 /* RenderingPipeline.swift */,
+				B10041 /* TileManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		E10011 /* ML */ = {
+			isa = PBXGroup;
+			children = (
+				B10052 /* MarsTerrainSR_v051_2500.mlpackage */,
+			);
+			path = ML;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F10001 /* Ares Preview */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = G10003 /* Build configuration list for PBXNativeTarget "Ares Preview" */;
+			buildPhases = (
+				F10002 /* Sources */,
+				D10001 /* Frameworks */,
+				F10003 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ares Preview";
+			productName = "Ares Preview";
+			productReference = C10001 /* Ares Preview.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F10010 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					F10001 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = G10001 /* Build configuration list for PBXProject "Ares Preview" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E10001;
+			productRefGroup = E10009 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F10001 /* Ares Preview */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F10003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E939AFD2F5F8BA400165FA7 /* BlenderTrial-Medium.otf in Resources */,
+				7E939AFE2F5F8BA400165FA7 /* InterVariable-Italic.ttf in Resources */,
+				7E939AFF2F5F8BA400165FA7 /* BlenderTrial-Bold.otf in Resources */,
+				7E939B002F5F8BA400165FA7 /* BlenderTrial-Thin.otf in Resources */,
+				7E939B012F5F8BA400165FA7 /* BlenderTrial-Book.otf in Resources */,
+				7E939B022F5F8BA400165FA7 /* InterVariable.ttf in Resources */,
+				A10017 /* Assets.xcassets in Resources */,
+				A10057 /* Mosaics in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F10002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10001 /* AresApp.swift in Sources */,
+				A10002 /* ContentView.swift in Sources */,
+				7EFDE8B42F65DDF6001732ED /* AresEnvironment.swift in Sources */,
+				A10023 /* ToggleButton.swift in Sources */,
+				A10063 /* AltitudeScaleBar.swift in Sources */,
+				A10064 /* Tooltip.swift in Sources */,
+				7E939AFB2F5F8BA400165FA7 /* AppFonts.swift in Sources */,
+				7E939AFC2F5F8BA400165FA7 /* FontRegistration.swift in Sources */,
+				A10021 /* TopBar.swift in Sources */,
+				A10026 /* MarsTimekeeper.swift in Sources */,
+				A10027 /* TelemetryView.swift in Sources */,
+				A10031 /* TelemetryPanel.swift in Sources */,
+				A10052 /* MarsTerrainSR_v051_2500.mlpackage in Sources */,
+				A10041 /* TileManager.swift in Sources */,
+				A10042 /* SampleSizeView.swift in Sources */,
+				A10056 /* CTXTileLoader.swift in Sources */,
+				A10060 /* ColourEngine.swift in Sources */,
+				A10061 /* HiRISETileLoader.swift in Sources */,
+				A10062 /* HiRISETier2Loader.swift in Sources */,
+				A10065 /* SettingsView.swift in Sources */,
+				A10066 /* OnboardingView.swift in Sources */,
+				A10067 /* RenderingPipeline.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		G10011 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		G10012 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		G10021 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_HARDENED_RUNTIME = NO;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ares-preview.app";
+				PRODUCT_NAME = "Ares Preview";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		G10022 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_HARDENED_RUNTIME = NO;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ares-preview.app";
+				PRODUCT_NAME = "Ares Preview";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		G10001 /* Build configuration list for PBXProject "Ares Preview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				G10011 /* Debug */,
+				G10012 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		G10003 /* Build configuration list for PBXNativeTarget "Ares Preview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				G10021 /* Debug */,
+				G10022 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F10010 /* Project object */;
+}

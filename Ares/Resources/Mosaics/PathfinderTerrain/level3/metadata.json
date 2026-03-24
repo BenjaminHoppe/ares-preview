@@ -1,0 +1,18 @@
+{
+  "grid_rows": 6,
+  "grid_cols": 9,
+  "raw_tile_size": 512,
+  "enhanced_tile_size": 2048,
+  "strip_count": 9,
+  "strip_orientation": "column",
+  "source_row_start": 49,
+  "source_row_end": 54,
+  "source_col_start": 17,
+  "source_col_end": 25,
+  "geo_bounds": {
+    "lat_min": 19.091403914255086,
+    "lat_max": 19.104454220776095,
+    "lon_min": 326.7359210164031,
+    "lon_max": 326.7563420772183
+  }
+}
