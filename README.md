@@ -6,9 +6,11 @@ Requires Apple Silicon and macOS 14 or newer.
 
 [Download Ares Preview v0.1](https://github.com/BenjaminHoppe/ares-preview/releases/tag/v0.1).
 
-
-
 _Note: Ares Preview is ~1.4 GB due to shipping pre-upscaled HiRISE imagery (more below)._
+
+<br>
+<img width="1512" height="982" alt="ares-preview" src="https://github.com/user-attachments/assets/21f564a0-06bd-4a16-a4fa-5fd9b90cac32" />
+<br>
 
 # Summary 
 
@@ -82,6 +84,14 @@ More data didn't help because the bottleneck was never the data. The GAN loss co
 v0.5 kept everything from v0.4 but removed the GAN entirely. The GAN loss was the problem. Without it, pixel loss and perceptual loss could do their job cleanly. PSNR jumped 4 dB on the same 542,472 tiles, trained in roughly 1.5 hours. The loss function was the bottleneck all along, not the data.
 
 v0.5.1 reintroduced the GAN at a fraction of the original weight (0.01), fine-tuned from the v0.5 checkpoint in about 1 hour. This is the production model, Ares SR v0.5.1. The best checkpoint was saved at just 2,500 iterations. Every version trained beyond that performed worse. v0.5.2 briefly explored reducing the perceptual loss weight, producing the most stable but weakest results of the three.
+
+<br>
+<figure>
+  <img width="1800" height="1012" alt="pathfinder-sample" src="https://github.com/user-attachments/assets/97aaa421-7402-48b1-ba2c-28ccd40cec67" />
+</figure>
+
+<br>
+<br>
 
 Total cost: $28 USD, and a lot of patience. 
 
