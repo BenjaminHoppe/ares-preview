@@ -4,7 +4,9 @@ Ares enhances NASA orbital imagery of Mars using on-device neural super-resoluti
 
 Requires Apple Silicon and macOS 14 or newer.
 
-Download v0.1 from the [latest release](https://github.com/applied-curiosity/ares-preview/releases/latest).
+[Download Ares Preview v0.1](https://github.com/BenjaminHoppe/ares-preview/releases/tag/v0.1).
+
+
 
 _Note: Ares Preview is ~1.4 GB due to shipping pre-upscaled HiRISE imagery (more below)._
 
